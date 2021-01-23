@@ -1,0 +1,3 @@
+DDRS4PALS will be registered as:
+
+AppId={{990AB016-DD8B-4134-8DDF-C22317E2CDAF}
