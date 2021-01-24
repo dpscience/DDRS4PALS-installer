@@ -45,7 +45,7 @@
 #define MyAppURL             "https://dpscience.github.io/DDRS4PALS/"
 #define MyAppSupportURL      "https://www.researchgate.net/profile/Danny_Petschke"
 
-#define MyAppVersion         "1.13"
+#define MyAppVersion         "1.14"
 #define MyAppExeName         MyAppName + ".exe" 
 #define MyOutputBaseFilename "installer_" + MyAppName + "-v" + MyAppVersion
 
@@ -77,7 +77,7 @@ AppPublisherURL                 = {#MyAppURL}
 AppSupportURL                   = {#MyAppSupportURL}
 AppUpdatesURL                   = {#MyAppURL}
 AppContact                      = https://dpscience.github.io/DDRS4PALS/
-AppCopyright                    = Copyright (c) 2016-2020 Danny Petschke
+AppCopyright                    = Copyright (c) 2016-2021 Danny Petschke
 DefaultDirName                  = {pf}\{#MyAppName}
 DefaultGroupName                = {#MyAppName}
 AllowNoIcons                    = yes
@@ -218,7 +218,7 @@ Source: "{#SourcePath}\license\COPYRIGHT"; DestDir: "{app}"; Flags: ignoreversio
 Source: "{#SourcePath}\license\LICENSE.GPLv3"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "{#SourcePath}\license\LICENSE.LGPLv3"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "{#SourcePath}\license\MODIFICATIONS"; DestDir: "{app}"; Flags: ignoreversion;
-Source: "{#SourcePath}\license\USED-LICENSE.LGPLv3"; DestDir: "{app}"; Flags: ignoreversion;
+Source: "{#SourcePath}\license\USED-LICENSE.GPLv3"; DestDir: "{app}"; Flags: ignoreversion;
 
 Source: "{#SourcePath}\exe\bin\d3dcompiler_47.dll"; DestDir: {app}; Flags: ignoreversion
 Source: "{#SourcePath}\exe\bin\DLTPulseGenerator.dll"; DestDir: {app}; Flags: ignoreversion 
@@ -263,7 +263,9 @@ Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{group}\DQuickLTFit.exe"; Filename: "{app}\DQuickLTFit.exe"
 Name: "{group}\DDRS4PALS homepage ..."; Filename: "{#MyAppURL}"
 Name: "{group}\contact Danny Petschke ..."; Filename: "{#MyAppSupportURL}"
-Name: "{group}\LICENSE"; Filename: "{app}\LICENSE.txt"
+Name: "{group}\LICENSE-DDRS4PALS"; Filename: "{app}\LICENSE.txt"
+Name: "{group}\LICENSE-GPLv3"; Filename: "{app}\LICENSE.GPLv3"
+Name: "{group}\LICENSE-LGPLv3"; Filename: "{app}\LICENSE.LGPLv3"
 Name: "{group}\uninstall {#MyAppName}"; Filename: "{uninstallexe}"                        
 Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 Name: "{commondesktop}\DQuickLTFit"; Filename: "{app}\DQuickLTFit.exe"; Tasks: desktopicon
@@ -279,7 +281,7 @@ Type: files; Name: "{app}\LICENSE.GPLv3"
 Type: files; Name: "{app}\LICENSE.LGPLv3"
 Type: files; Name: "{app}\MODIFICATIONS"
 Type: files; Name: "{app}\COPYRIGHT"
-Type: files; Name: "{app}\USED-LICENSE.LGPLv3"
+Type: files; Name: "{app}\USED-LICENSE.GPLv3"
 
 [Run]
 Filename: "{tmp}\VC_redist.x64.exe"; Check: VCRedistNeedsInstall; StatusMsg: Installing Visual Studio Runtime Libraries ...
