@@ -45,7 +45,7 @@
 #define MyAppURL             "https://dpscience.github.io/DDRS4PALS/"
 #define MyAppSupportURL      "https://www.researchgate.net/profile/Danny_Petschke"
 
-#define MyAppVersion         "1.15"
+#define MyAppVersion         "1.16"
 #define MyAppExeName         MyAppName + ".exe" 
 #define MyOutputBaseFilename "installer_" + MyAppName + "-v" + MyAppVersion
 
