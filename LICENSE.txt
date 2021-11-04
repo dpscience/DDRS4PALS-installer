@@ -1,4 +1,4 @@
-Copyright (C) 2021 Danny Petschke. All rights reserved.
+Copyright (C) 2021 Dr. Danny Petschke. All rights reserved.
 
 Inno Setup License
 ==================
