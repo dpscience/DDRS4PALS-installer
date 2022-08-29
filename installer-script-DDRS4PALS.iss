@@ -1,6 +1,6 @@
 ; { ///////////////////////////////////////////////////////////////////////////////////////////////// }
 ;
-; Copyright (C) 2021 Danny Petschke. All rights reserved.
+; Copyright (C) 2021, 2022 Danny Petschke. All rights reserved.
 ;
 ; { ///////////////////////////////////////////////////////////////////////////////////////////////// }
 ;
@@ -45,7 +45,7 @@
 #define MyAppURL             "https://dpscience.github.io/DDRS4PALS/"
 #define MyAppSupportURL      "https://www.researchgate.net/profile/Danny_Petschke"
 
-#define MyAppVersion         "1.17"
+#define MyAppVersion         "1.18"
 #define MyAppExeName         MyAppName + ".exe" 
 #define MyOutputBaseFilename "installer_" + MyAppName + "-v" + MyAppVersion
 
@@ -77,7 +77,7 @@ AppPublisherURL                 = {#MyAppURL}
 AppSupportURL                   = {#MyAppSupportURL}
 AppUpdatesURL                   = {#MyAppURL}
 AppContact                      = https://dpscience.github.io/DDRS4PALS/
-AppCopyright                    = Copyright (c) 2016-2021 Dr. Danny Petschke
+AppCopyright                    = Copyright (c) 2016-2022 Dr. Danny Petschke
 DefaultDirName                  = {pf}\{#MyAppName}
 DefaultGroupName                = {#MyAppName}
 AllowNoIcons                    = yes

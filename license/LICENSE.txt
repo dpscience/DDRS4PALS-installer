@@ -1,4 +1,4 @@
-Copyright (c) 2016-2021 Dr. Danny Petschke
+Copyright (c) 2016-2022 Dr. Danny Petschke
 
 @contact: danny.petschke@uni-wuerzburg.de
 
@@ -123,9 +123,9 @@ under the License.
 
 /*****************************************************************************************
 /*
-5. DLTPulseGenerator - A library for the simulation of lifetime spectra based on detector-output pulses.
+5. DLTPulseGenerator v1.4 - A library for the simulation of lifetime spectra based on detector-output pulses.
 
-Copyright (c) 2017-2019 Danny Petschke. All rights reserved.
+Copyright (c) 2017-2022 Dr. Danny Petschke. All rights reserved.
 
 @contact: danny.petschke@uni-wuerzburg.de
  
